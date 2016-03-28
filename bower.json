@@ -1,0 +1,12 @@
+//bower.json
+//spesifiserer navn og versjon på front-end og hvilke biblioteker som brukes
+
+{
+    "name" : "TUOppgaver",
+    "version" : "1.0.0",
+    "dependencies" : {
+        "bootstrap" : "latest",
+        "angular" : "latest",
+        "angular-route" : "latest"
+    }
+}

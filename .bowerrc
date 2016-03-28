@@ -1,0 +1,5 @@
+// .bowerrc
+// forteller bower hvor den skal lagre front-end pakker
+{
+    "directory" : "public/libs"
+}
