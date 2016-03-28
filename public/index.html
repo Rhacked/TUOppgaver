@@ -87,7 +87,7 @@
                 <div ng-bind-html="time.body[0]"></div>
             </div>
         </div>
-            <a href="{{forecast.credit[0].link[0].$.url}}">{{forecast.credit[0].link[0].$.text}}</a>
+            <a ng-if="dataloaded" href="{{forecast.credit[0].link[0].$.url}}">{{forecast.credit[0].link[0].$.text}}</a>
     </div>
 
 </body>

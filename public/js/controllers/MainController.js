@@ -50,6 +50,8 @@ angular.module('MainCtrl', []).controller('MainController', function($scope, $ht
         $scope.tabular = data.forecast[0].tabular[0].time;
         $scope.dataloaded=true;
         $scope.vaer = 'Viser vær for';
+        $scope.steder = {};
+        
     };
     
     
@@ -57,6 +59,9 @@ angular.module('MainCtrl', []).controller('MainController', function($scope, $ht
     *Søkefunksjon som henter brukerinput og sender en GET-request til serveren og etterspør informasjon om steder.
     */
     $scope.search = function(){
+        $scope.text = {};
+        $scope.tabular = {};
+        $scope.dataloaded = false;
         $http.get('/api/steder', {params: {userinput : $scope.userinput}, cache: true})
             .success(function(data){
                 if(data.length>=1){
