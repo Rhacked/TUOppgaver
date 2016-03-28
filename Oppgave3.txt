@@ -1,0 +1,15 @@
+Hei!
+
+Disse kan eksistere av et par grunner. Spørsmålstegnet etter www.tek.no er en parameter som settes.
+Denne parametren kan brukes til å filtrere innholdet på forsiden. www.tek.no?kake=1 kan f.eks. vise innhold som genereres
+ved at variabelen kake = 1 i koden. Uten å vite hva disse variablene gjør er det vanskelig å si om det er noen god grunn
+til at de finnes. Det eneste jeg kan si noe om er linken www.tek.no?utm_source=referrer.com. Denne linken forteller webserveren til tek
+at hvem enn som klikker på linken kom fra nettsiden referrer.com. Dette er brukbart til å loggføre statisikk om
+hvilke lenker til tek.no som genererer trafikk.
+
+Dupliserte sider er ikke alfa-omega for søkemotorer. For de linkene som er viktige, slik som de med ?utm_source kan det redirectes til
+www.tek.no. Linker som ikke er viktig for daglig drift er jeg ganske sikker på at kan slettes, men dette bør
+sjekkes med webmasteren først.
+
+Med vennlig hilsen
+Ruben Hagen
